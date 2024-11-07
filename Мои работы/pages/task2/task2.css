@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.recepty{
+    width: 65%;
+    margin: 0 auto;
+}
+.recepty h1{
+    font-size: 46px;
+}
+.recepty h2{
+    color: rgb(132, 27, 27);
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.block-img img{
+    border-radius: 32px;
+    border: 2px solid #000;
+
+}
+.block-img + p{
+    text-decoration: underline;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.ingr-list{
+    list-style: none;
+    font-size: 20px;
+}
+.ingr-list li:nth-child(2n){
+color: crimson;
+}
+.ingr-list li:nth-child(2n+1){
+    color: rgb(153, 19, 186);
+}
+.block-link a{
+    margin-top: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: darkred;
+    padding: 15px 25px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.block-link a:hover{
+    background-color: rgb(210, 4, 4);
+    border-radius: 16px;
+}

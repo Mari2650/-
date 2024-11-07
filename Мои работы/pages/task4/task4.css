@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sectionCarousel{
+    height: 100%;
+    background-color: #bcba92
+}
+
+#carouselExampleAutoplaying{
+    width: 1000px;
+    margin: auto;
+}

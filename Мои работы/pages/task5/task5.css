@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    padding: 48px 24px;
+    background-color: rgb(37, 46, 36);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center; /* Изменять при медиа-запросе */
+    position: relative;
+    z-index: 2;
+}
+
+.burger-menu{
+    display: none; /* Изменять при медиа-запросе */
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.burger-bar{
+    background-color: beige;
+    width: 30px;
+    height: 3px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.menu{
+    display: flex; /* Изменять при медиа-запросе */
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    color: beige;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: rgba(255, 255, 255, 0.478);
+}
+
+.navigation-adaptive {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    position: absolute;
+    top: 117px;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 59, 85, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.navigation {
+    display: block;
+}
